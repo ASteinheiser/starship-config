@@ -22,7 +22,7 @@ $scala\
 $time\
 [](fg:#25501c)
 [](fg:#4d0082)\
-[ ](bg:#4d0082)\
+[$character](bg:#4d0082)\
 [](fg:#4d0082 bg:#9A348E)\
 [](fg:#9A348E bg:#244999)\
 [ ](fg:#244999)
@@ -142,3 +142,8 @@ disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#25501c"
 format = '[ 祥$time]($style)'
+
+[character]
+format = " $symbol"
+success_symbol = "[](bg:#4d0082)"
+error_symbol = "[✗](bg:#4d0082)"
