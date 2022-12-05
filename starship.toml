@@ -146,4 +146,4 @@ format = '[ 祥$time]($style)'
 [character]
 format = " $symbol"
 success_symbol = "[](bg:#4d0082)"
-error_symbol = "[✗](bg:#4d0082)"
+error_symbol = "[👎](bg:#4d0082)"
