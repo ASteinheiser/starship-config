@@ -10,9 +10,6 @@ function __check_nvm --on-variable PWD --description 'Do nvm stuff'
 
     if string match -q -- "*$node_version" $nvmrc_node_version
       # already current node version
-    else if not set -q $nvmrc_node_version
-      # install
-      nvm install $node_version_target
     else
       nvm use $node_version_target
     end
@@ -22,3 +19,5 @@ end
 __check_nvm
 
 starship init fish | source
+
+nvm use default
